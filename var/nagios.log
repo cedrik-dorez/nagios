@@ -1,0 +1,191 @@
+[1632409502] Nagios 4.4.6 starting... (PID=11598)
+[1632409502] Local time is Thu Sep 23 17:05:02 CEST 2021
+[1632409502] LOG VERSION: 2.0
+[1632409502] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1632409502] qh: core query handler registered
+[1632409502] qh: echo service query handler registered
+[1632409502] qh: help for the query handler registered
+[1632409502] wproc: Successfully registered manager as @wproc with query handler
+[1632409502] wproc: Registry request: name=Core Worker 11602;pid=11602
+[1632409502] wproc: Registry request: name=Core Worker 11601;pid=11601
+[1632409502] wproc: Registry request: name=Core Worker 11600;pid=11600
+[1632409502] wproc: Registry request: name=Core Worker 11599;pid=11599
+[1632409503] Successfully launched command file worker with pid 11603
+[1632409503] HOST ALERT: localhost;DOWN;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1632409539] SERVICE ALERT: localhost;Current Load;CRITICAL;HARD;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_load, ...) failed. errno is 2: No such file or directory
+[1632409563] HOST ALERT: localhost;DOWN;SOFT;2;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1632409577] SERVICE ALERT: localhost;Current Users;CRITICAL;HARD;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_users, ...) failed. errno is 2: No such file or directory
+[1632409614] SERVICE ALERT: localhost;HTTP;CRITICAL;HARD;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_http, ...) failed. errno is 2: No such file or directory
+[1632409623] HOST ALERT: localhost;DOWN;SOFT;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1632409652] SERVICE ALERT: localhost;PING;CRITICAL;HARD;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1632409683] HOST ALERT: localhost;DOWN;SOFT;4;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1632409689] SERVICE ALERT: localhost;Root Partition;CRITICAL;HARD;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_disk, ...) failed. errno is 2: No such file or directory
+[1632409727] SERVICE ALERT: localhost;SSH;CRITICAL;HARD;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ssh, ...) failed. errno is 2: No such file or directory
+[1632409741] Caught SIGTERM, shutting down...
+[1632409741] Successfully shutdown... (PID=11598)
+[1632464907] Nagios 4.4.6 starting... (PID=494)
+[1632464907] Local time is Fri Sep 24 08:28:27 CEST 2021
+[1632464907] LOG VERSION: 2.0
+[1632464907] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1632464907] qh: core query handler registered
+[1632464907] qh: echo service query handler registered
+[1632464907] qh: help for the query handler registered
+[1632464907] wproc: Successfully registered manager as @wproc with query handler
+[1632464907] wproc: Registry request: name=Core Worker 502;pid=502
+[1632464907] wproc: Registry request: name=Core Worker 500;pid=500
+[1632464907] wproc: Registry request: name=Core Worker 503;pid=503
+[1632464907] wproc: Registry request: name=Core Worker 501;pid=501
+[1632464907] Successfully launched command file worker with pid 515
+[1632464907] HOST ALERT: localhost;DOWN;SOFT;5;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1632464967] HOST ALERT: localhost;DOWN;SOFT;6;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1632465027] HOST ALERT: localhost;DOWN;SOFT;7;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1632465087] HOST ALERT: localhost;DOWN;SOFT;8;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1632465147] HOST ALERT: localhost;DOWN;SOFT;9;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1632465169] SERVICE ALERT: localhost;Swap Usage;CRITICAL;HARD;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_swap, ...) failed. errno is 2: No such file or directory
+[1632465207] SERVICE ALERT: localhost;Total Processes;CRITICAL;HARD;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_procs, ...) failed. errno is 2: No such file or directory
+[1632465207] HOST ALERT: localhost;DOWN;HARD;10;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1632465619] SERVICE ALERT: localhost;HTTP;OK;HARD;4;HTTP OK: HTTP/1.1 200 OK - 10975 octets en 0,004 secondes de temps de réponse
+[1632465623] HOST ALERT: localhost;UP;HARD;1;PING OK -  Paquets perdus = 0%, RTA = 0.05 ms
+[1632465661] SERVICE ALERT: localhost;PING;OK;HARD;4;PING OK -  Paquets perdus = 0%, RTA = 0.04 ms
+[1632465694] SERVICE ALERT: localhost;Root Partition;OK;HARD;4;DISK OK - free space: / 17977 MiB (78,79% inode=88%):
+[1632465732] SERVICE ALERT: localhost;SSH;OK;HARD;4;SSH OK - OpenSSH_8.4p1 Debian-5 (protocol 2.0)
+[1632465760] Caught SIGTERM, shutting down...
+[1632465760] Caught SIGTERM, shutting down...
+[1632465760] Caught SIGTERM, shutting down...
+[1632465760] Successfully shutdown... (PID=494)
+[1632465760] Nagios 4.4.6 starting... (PID=23254)
+[1632465760] Local time is Fri Sep 24 08:42:40 CEST 2021
+[1632465760] LOG VERSION: 2.0
+[1632465760] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1632465760] qh: core query handler registered
+[1632465760] qh: echo service query handler registered
+[1632465760] qh: help for the query handler registered
+[1632465760] wproc: Successfully registered manager as @wproc with query handler
+[1632465760] wproc: Registry request: name=Core Worker 23257;pid=23257
+[1632465760] wproc: Registry request: name=Core Worker 23256;pid=23256
+[1632465760] wproc: Registry request: name=Core Worker 23255;pid=23255
+[1632465760] wproc: Registry request: name=Core Worker 23258;pid=23258
+[1632465760] Successfully launched command file worker with pid 23259
+[1632465769] SERVICE ALERT: localhost;Swap Usage;OK;HARD;4;SWAP OK - 100% libre (974 MB sur un total de 974 MB)
+[1632465807] SERVICE ALERT: localhost;Total Processes;OK;HARD;4;PROCS OK: 51 processus avec ETAT = RSZDT
+[1632465844] SERVICE ALERT: localhost;Current Load;OK;HARD;4;OK - Charge moyenne: 0.37, 0.31, 0.16
+[1632465882] SERVICE ALERT: localhost;Current Users;OK;HARD;4;UTILISATEURS OK - 1 utilisateurs actuellement connectés sur
+[1632466231] Caught SIGTERM, shutting down...
+[1632466231] Caught SIGTERM, shutting down...
+[1632466231] Caught SIGTERM, shutting down...
+[1632466231] Successfully shutdown... (PID=23254)
+[1632466231] Nagios 4.4.6 starting... (PID=23584)
+[1632466231] Local time is Fri Sep 24 08:50:31 CEST 2021
+[1632466231] LOG VERSION: 2.0
+[1632466231] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1632466231] qh: core query handler registered
+[1632466231] qh: echo service query handler registered
+[1632466231] qh: help for the query handler registered
+[1632466231] wproc: Successfully registered manager as @wproc with query handler
+[1632466231] wproc: Registry request: name=Core Worker 23586;pid=23586
+[1632466231] wproc: Registry request: name=Core Worker 23588;pid=23588
+[1632466231] wproc: Registry request: name=Core Worker 23587;pid=23587
+[1632466231] wproc: Registry request: name=Core Worker 23585;pid=23585
+[1632466231] Successfully launched command file worker with pid 23589
+[1632466407] Caught SIGTERM, shutting down...
+[1632466407] Successfully shutdown... (PID=23584)
+[1632466534] Nagios 4.4.6 starting... (PID=479)
+[1632466534] Local time is Fri Sep 24 08:55:34 CEST 2021
+[1632466534] LOG VERSION: 2.0
+[1632466534] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1632466534] qh: core query handler registered
+[1632466534] qh: echo service query handler registered
+[1632466534] qh: help for the query handler registered
+[1632466534] wproc: Successfully registered manager as @wproc with query handler
+[1632466534] wproc: Registry request: name=Core Worker 487;pid=487
+[1632466534] wproc: Registry request: name=Core Worker 485;pid=485
+[1632466534] wproc: Registry request: name=Core Worker 486;pid=486
+[1632466534] wproc: Registry request: name=Core Worker 484;pid=484
+[1632466534] Successfully launched command file worker with pid 501
+[1632468744] Caught SIGTERM, shutting down...
+[1632468744] Successfully shutdown... (PID=479)
+[1632468752] Nagios 4.4.6 starting... (PID=537)
+[1632468752] Local time is Fri Sep 24 09:32:32 CEST 2021
+[1632468752] LOG VERSION: 2.0
+[1632468752] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1632468752] qh: core query handler registered
+[1632468752] qh: echo service query handler registered
+[1632468752] qh: help for the query handler registered
+[1632468752] wproc: Successfully registered manager as @wproc with query handler
+[1632468752] wproc: Registry request: name=Core Worker 541;pid=541
+[1632468752] wproc: Registry request: name=Core Worker 539;pid=539
+[1632468752] wproc: Registry request: name=Core Worker 540;pid=540
+[1632468752] wproc: Registry request: name=Core Worker 538;pid=538
+[1632468752] Successfully launched command file worker with pid 546
+[1632469947] Caught SIGTERM, shutting down...
+[1632469947] Successfully shutdown... (PID=537)
+[1632469955] Nagios 4.4.6 starting... (PID=540)
+[1632469955] Local time is Fri Sep 24 09:52:35 CEST 2021
+[1632469955] LOG VERSION: 2.0
+[1632469955] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1632469955] qh: core query handler registered
+[1632469955] qh: echo service query handler registered
+[1632469955] qh: help for the query handler registered
+[1632469955] wproc: Successfully registered manager as @wproc with query handler
+[1632469955] wproc: Registry request: name=Core Worker 541;pid=541
+[1632469955] wproc: Registry request: name=Core Worker 544;pid=544
+[1632469955] wproc: Registry request: name=Core Worker 543;pid=543
+[1632469955] wproc: Registry request: name=Core Worker 542;pid=542
+[1632469955] Successfully launched command file worker with pid 547
+[1632492832] Nagios 4.4.6 starting... (PID=586)
+[1632492832] Local time is Fri Sep 24 16:13:52 CEST 2021
+[1632492832] LOG VERSION: 2.0
+[1632492832] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1632492832] qh: core query handler registered
+[1632492832] qh: echo service query handler registered
+[1632492832] qh: help for the query handler registered
+[1632492832] wproc: Successfully registered manager as @wproc with query handler
+[1632492832] wproc: Registry request: name=Core Worker 590;pid=590
+[1632492832] wproc: Registry request: name=Core Worker 591;pid=591
+[1632492832] wproc: Registry request: name=Core Worker 593;pid=593
+[1632492832] wproc: Registry request: name=Core Worker 592;pid=592
+[1632485639] Successfully launched command file worker with pid 978
+[1632485787] Nagios 4.4.6 starting... (PID=539)
+[1632485787] Local time is Fri Sep 24 14:16:27 CEST 2021
+[1632485787] LOG VERSION: 2.0
+[1632485787] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1632485787] qh: core query handler registered
+[1632485787] qh: echo service query handler registered
+[1632485787] qh: help for the query handler registered
+[1632485787] wproc: Successfully registered manager as @wproc with query handler
+[1632485787] wproc: Registry request: name=Core Worker 546;pid=546
+[1632485787] wproc: Registry request: name=Core Worker 547;pid=547
+[1632485787] wproc: Registry request: name=Core Worker 545;pid=545
+[1632485787] wproc: Registry request: name=Core Worker 543;pid=543
+[1632485787] Successfully launched command file worker with pid 550
+[1632487767] Caught SIGTERM, shutting down...
+[1632487767] Caught SIGTERM, shutting down...
+[1632487767] Caught SIGTERM, shutting down...
+[1632487767] Successfully shutdown... (PID=539)
+[1632488220] Nagios 4.4.6 starting... (PID=5584)
+[1632488220] Local time is Fri Sep 24 14:57:00 CEST 2021
+[1632488220] LOG VERSION: 2.0
+[1632488220] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1632488220] qh: core query handler registered
+[1632488220] qh: echo service query handler registered
+[1632488220] qh: help for the query handler registered
+[1632488220] wproc: Successfully registered manager as @wproc with query handler
+[1632488220] wproc: Registry request: name=Core Worker 5587;pid=5587
+[1632488220] wproc: Registry request: name=Core Worker 5586;pid=5586
+[1632488220] wproc: Registry request: name=Core Worker 5585;pid=5585
+[1632488220] wproc: Registry request: name=Core Worker 5588;pid=5588
+[1632488220] Successfully launched command file worker with pid 5589
+[1632500272] Nagios 4.4.6 starting... (PID=580)
+[1632500272] Local time is Fri Sep 24 18:17:52 CEST 2021
+[1632500272] LOG VERSION: 2.0
+[1632500272] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1632500272] qh: core query handler registered
+[1632500272] qh: echo service query handler registered
+[1632500272] qh: help for the query handler registered
+[1632500272] wproc: Successfully registered manager as @wproc with query handler
+[1632500272] wproc: Registry request: name=Core Worker 582;pid=582
+[1632500272] wproc: Registry request: name=Core Worker 583;pid=583
+[1632500272] wproc: Registry request: name=Core Worker 585;pid=585
+[1632500272] wproc: Registry request: name=Core Worker 584;pid=584
+[1632500275] Successfully launched command file worker with pid 599
+[1632493077] Warning: A system time change of -7198 seconds (0d 1h 59m 58s backwards in time) has been detected.  Compensating...
